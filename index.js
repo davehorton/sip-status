@@ -1,6 +1,5 @@
-module.exports = obj
+var obj = module.exports = {}
 
-var obj = {}
 obj[100] = 'Trying'
 obj[180] = 'Ringing'
 obj[181] = 'Call is Being Forwarded'
@@ -72,4 +71,3 @@ obj[600] = 'Busy Everywhere'
 obj[603] = 'Decline'
 obj[604] = 'Does Not Exist Anywhere'
 obj[606] = 'Not Acceptable'
-
