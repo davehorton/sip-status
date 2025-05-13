@@ -1,6 +1,6 @@
 {
   "name": "sip-status",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sip status codes and descriptions",
   "main": "index.js",
   "scripts": {

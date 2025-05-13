@@ -1,73 +1,74 @@
-var obj = module.exports = {}
-
-obj[100] = 'Trying'
-obj[180] = 'Ringing'
-obj[181] = 'Call is Being Forwarded'
-obj[182] = 'Queued'
-obj[183] = 'Session in Progress'
-obj[199] = 'Early Dialog Terminated'
-obj[200] = 'OK'
-obj[202] = 'Accepted'
-obj[204] = 'No Notification'
-obj[300] = 'Multiple Choices'
-obj[301] = 'Moved Permanently'
-obj[302] = 'Moved Temporarily'
-obj[305] = 'Use Proxy'
-obj[380] = 'Alternative Service'
-obj[400] = 'Bad Request'
-obj[401] = 'Unauthorized'
-obj[402] = 'Payment Required'
-obj[403] = 'Forbidden'
-obj[404] = 'Not Found'
-obj[405] = 'Method Not Allowed'
-obj[406] = 'Not Acceptable'
-obj[407] = 'Proxy Authentication Required'
-obj[408] = 'Request Timeout'
-obj[409] = 'Conflict'
-obj[410] = 'Gone'
-obj[411] = 'Length Required'
-obj[412] = 'Conditional Request Failed'
-obj[413] = 'Request Entity Too Large'
-obj[414] = 'Request-URI Too Long'
-obj[415] = 'Unsupported Media Type'
-obj[416] = 'Unsupported URI Scheme'
-obj[417] = 'Unknown Resource-Priority'
-obj[420] = 'Bad Extension'
-obj[421] = 'Extension Required'
-obj[422] = 'Session Interval Too Small'
-obj[423] = 'Interval Too Brief'
-obj[424] = 'Bad Location Information'
-obj[428] = 'Use Identity Header'
-obj[429] = 'Provide Referrer Identity'
-obj[430] = 'Flow Failed'
-obj[433] = 'Anonymity Disallowed'
-obj[436] = 'Bad Identity-Info'
-obj[437] = 'Unsupported Certificate'
-obj[438] = 'Invalid Identity Header'
-obj[439] = 'First Hop Lacks Outbound Support'
-obj[470] = 'Consent Needed'
-obj[480] = 'Temporarily Unavailable'
-obj[481] = 'Call Leg/Transaction Does Not Exist'
-obj[482] = 'Loop Detected'
-obj[483] = 'Too Many Hops'
-obj[484] = 'Address Incomplete'
-obj[485] = 'Ambiguous'
-obj[486] = 'Busy Here'
-obj[487] = 'Request Terminated'
-obj[488] = 'Not Acceptable Here'
-obj[489] = 'Bad Event'
-obj[491] = 'Request Pending'
-obj[493] = 'Undecipherable'
-obj[494] = 'Security Agreement Required'
-obj[500] = 'Server Internal Error'
-obj[501] = 'Not Implemented'
-obj[502] = 'Bad Gateway'
-obj[503] = 'Service Unavailable'
-obj[504] = 'Server Timeout'
-obj[505] = 'Version Not Supported'
-obj[513] = 'Message Too Large'
-obj[580] = 'Precondition Failure'
-obj[600] = 'Busy Everywhere'
-obj[603] = 'Decline'
-obj[604] = 'Does Not Exist Anywhere'
-obj[606] = 'Not Acceptable'
+module.exports = {
+    100: 'Trying',
+    180: 'Ringing',
+    181: 'Call is Being Forwarded',
+    182: 'Queued',
+    183: 'Session in Progress',
+    199: 'Early Dialog Terminated',
+    200: 'OK',
+    202: 'Accepted',
+    204: 'No Notification',
+    300: 'Multiple Choices',
+    301: 'Moved Permanently',
+    302: 'Moved Temporarily',
+    305: 'Use Proxy',
+    380: 'Alternative Service',
+    400: 'Bad Request',
+    401: 'Unauthorized',
+    402: 'Payment Required',
+    403: 'Forbidden',
+    404: 'Not Found',
+    405: 'Method Not Allowed',
+    406: 'Not Acceptable',
+    407: 'Proxy Authentication Required',
+    408: 'Request Timeout',
+    409: 'Conflict',
+    410: 'Gone',
+    411: 'Length Required',
+    412: 'Conditional Request Failed',
+    413: 'Request Entity Too Large',
+    414: 'Request-URI Too Long',
+    415: 'Unsupported Media Type',
+    416: 'Unsupported URI Scheme',
+    417: 'Unknown Resource-Priority',
+    420: 'Bad Extension',
+    421: 'Extension Required',
+    422: 'Session Interval Too Small',
+    423: 'Interval Too Brief',
+    424: 'Bad Location Information',
+    428: 'Use Identity Header',
+    429: 'Provide Referrer Identity',
+    430: 'Flow Failed',
+    433: 'Anonymity Disallowed',
+    436: 'Bad Identity-Info',
+    437: 'Unsupported Certificate',
+    438: 'Invalid Identity Header',
+    439: 'First Hop Lacks Outbound Support',
+    470: 'Consent Needed',
+    477: 'Unfortunately error on sending to next hop occurred',
+    480: 'Temporarily Unavailable',
+    481: 'Call Leg/Transaction Does Not Exist',
+    482: 'Loop Detected',
+    483: 'Too Many Hops',
+    484: 'Address Incomplete',
+    485: 'Ambiguous',
+    486: 'Busy Here',
+    487: 'Request Terminated',
+    488: 'Not Acceptable Here',
+    489: 'Bad Event',
+    491: 'Request Pending',
+    493: 'Undecipherable',
+    494: 'Security Agreement Required',
+    500: 'Server Internal Error',
+    501: 'Not Implemented',
+    502: 'Bad Gateway',
+    503: 'Service Unavailable',
+    504: 'Server Timeout',
+    505: 'Version Not Supported',
+    513: 'Message Too Large',
+    580: 'Precondition Failure',
+    600: 'Busy Everywhere',
+    603: 'Decline',
+    604: 'Does Not Exist Anywhere',
+    606: 'Not Acceptable',
+};
